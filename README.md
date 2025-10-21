@@ -58,11 +58,6 @@
 <table>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/mudler/LocalAGI">
-        <img src="https://raw.githubusercontent.com/mudler/LocalAGI/refs/heads/main/webui/react-ui/public/logo_2.png" width="300" alt="LocalAGI Logo">
-      </a>
-    </td>
-    <td width="50%" valign="top">
       <h3><a href="https://github.com/mudler/LocalAGI">LocalAGI</a></h3>
       <p>A powerful Local AI agent management platform that serves as a drop-in replacement for OpenAI's Responses API, enhanced with advanced agentic capabilities.</p>
     </td>
@@ -80,24 +75,6 @@
   </tr>
 </table>
 
-## Screenshots
-
-
-| Talk Interface | Generate Audio |
-| --- | --- |
-| ![Screenshot 2025-03-31 at 12-01-36 LocalAI - Talk](./docs/assets/images/screenshots/screenshot_tts.png) | ![Screenshot 2025-03-31 at 12-01-29 LocalAI - Generate audio with voice-en-us-ryan-low](./docs/assets/images/screenshots/screenshot_tts.png) |
-
-| Models Overview | Generate Images |
-| --- | --- |
-| ![Screenshot 2025-03-31 at 12-01-20 LocalAI - Models](./docs/assets/images/screenshots/screenshot_gallery.png) | ![Screenshot 2025-03-31 at 12-31-41 LocalAI - Generate images with flux 1-dev](./docs/assets/images/screenshots/screenshot_image.png) |
-
-| Chat Interface | Home |
-| --- | --- |
-| ![Screenshot 2025-03-31 at 11-57-44 LocalAI - Chat with localai-functioncall-qwen2 5-7b-v0 5](./docs/assets/images/screenshots/screenshot_chat.png) | ![Screenshot 2025-03-31 at 11-57-23 LocalAI API - c2a39e3 (c2a39e3639227cfd94ffffe9f5691239acc275a8)](./docs/assets/images/screenshots/screenshot_home.png) |
-
-| Login | Swarm |
-| --- | --- |
-|![Screenshot 2025-03-31 at 12-09-59 ](./docs/assets/images/screenshots/screenshot_login.png) | ![Screenshot 2025-03-31 at 12-10-39 LocalAI - P2P dashboard](./docs/assets/images/screenshots/screenshot_p2p.png) |
 
 ## 💻 Quickstart
 
