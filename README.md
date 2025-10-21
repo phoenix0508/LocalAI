@@ -153,18 +153,11 @@ docker run -ti --name local-ai -p 8080:8080 --device=/dev/kfd --device=/dev/dri 
 
 ## 🚀 [Features](https://localai.io/features/)
 
+- 🔍 [Object Detection](https://localai.io/features/object-detection/)
 - 🧩 [Backend Gallery](https://localai.io/backends/): Install/remove backends on the fly, powered by OCI images — fully customizable and API-driven.
 - 📖 [Text generation with GPTs](https://localai.io/features/text-generation/) (`llama.cpp`, `transformers`, `vllm` ... [:book: and more](https://localai.io/model-compatibility/index.html#model-compatibility-table))
 - 🗣 [Text to Audio](https://localai.io/features/text-to-audio/)
 - 🔈 [Audio to Text](https://localai.io/features/audio-to-text/) (Audio transcription with `whisper.cpp`)
-- 🎨 [Image generation](https://localai.io/features/image-generation)
-- 🔥 [OpenAI-alike tools API](https://localai.io/features/openai-functions/) 
-- 🧠 [Embeddings generation for vector databases](https://localai.io/features/embeddings/)
-- ✍️ [Constrained grammars](https://localai.io/features/constrained_grammars/)
-- 🖼️ [Download Models directly from Huggingface ](https://localai.io/models/)
-- 🥽 [Vision API](https://localai.io/features/gpt-vision/)
-- 🔍 [Object Detection](https://localai.io/features/object-detection/)
-- 📈 [Reranker API](https://localai.io/features/reranker/)
 - 🆕🖧 [P2P Inferencing](https://localai.io/features/distribute/)
 - [Agentic capabilities](https://github.com/mudler/LocalAGI)
 - 🔊 Voice activity detection (Silero-VAD support)
@@ -173,16 +166,6 @@ docker run -ti --name local-ai -p 8080:8080 --device=/dev/kfd --device=/dev/dri 
 ## 🧩 Supported Backends & Acceleration
 
 LocalAI supports a comprehensive range of AI backends with multiple acceleration options:
-
-### Text Generation & Language Models
-| Backend | Description | Acceleration Support |
-|---------|-------------|---------------------|
-| **llama.cpp** | LLM inference in C/C++ | CUDA 11/12, ROCm, Intel SYCL, Vulkan, Metal, CPU |
-| **vLLM** | Fast LLM inference with PagedAttention | CUDA 12, ROCm, Intel |
-| **transformers** | HuggingFace transformers framework | CUDA 11/12, ROCm, Intel, CPU |
-| **exllama2** | GPTQ inference library | CUDA 12 |
-| **MLX** | Apple Silicon LLM inference | Metal (M1/M2/M3+) |
-| **MLX-VLM** | Apple Silicon Vision-Language Models | Metal (M1/M2/M3+) |
 
 ### Audio & Speech Processing
 | Backend | Description | Acceleration Support |
@@ -197,12 +180,6 @@ LocalAI supports a comprehensive range of AI backends with multiple acceleration
 | **piper** | Fast neural TTS system | CPU |
 | **kitten-tts** | Kitten TTS models | CPU |
 | **silero-vad** | Voice Activity Detection | CPU |
-
-### Image & Video Generation
-| Backend | Description | Acceleration Support |
-|---------|-------------|---------------------|
-| **stablediffusion.cpp** | Stable Diffusion in C/C++ | CUDA 12, Intel SYCL, Vulkan, CPU |
-| **diffusers** | HuggingFace diffusion models | CUDA 11/12, ROCm, Intel, Metal, CPU |
 
 ### Specialized AI Tasks
 | Backend | Description | Acceleration Support |
@@ -261,7 +238,6 @@ Other:
 
 ### 🔗 Resources
 
-- [LLM finetuning guide](https://localai.io/docs/advanced/fine-tuning/)
 - [How to build locally](https://localai.io/basics/build/index.html)
 - [How to install in Kubernetes](https://localai.io/basics/getting_started/index.html#run-localai-in-kubernetes)
 - [Projects integrating LocalAI](https://localai.io/docs/integrations/)
