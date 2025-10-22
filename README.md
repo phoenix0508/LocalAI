@@ -56,12 +56,6 @@
 🆕 LocalAI is now part of a comprehensive suite of AI tools designed to work together:
 
 <table>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/mudler/LocalRecall">
-        <img src="https://raw.githubusercontent.com/mudler/LocalRecall/refs/heads/main/static/localrecall_horizontal.png" width="300" alt="LocalRecall Logo">
-      </a>
-    </td>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/mudler/LocalRecall">LocalRecall</a></h3>
       <p>A REST-ful API and knowledge base management system that provides persistent memory and storage capabilities for AI agents.</p>
