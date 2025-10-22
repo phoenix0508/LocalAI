@@ -58,12 +58,6 @@
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/mudler/LocalAGI">LocalAGI</a></h3>
-      <p>A powerful Local AI agent management platform that serves as a drop-in replacement for OpenAI's Responses API, enhanced with advanced agentic capabilities.</p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
       <a href="https://github.com/mudler/LocalRecall">
         <img src="https://raw.githubusercontent.com/mudler/LocalRecall/refs/heads/main/static/localrecall_horizontal.png" width="300" alt="LocalRecall Logo">
       </a>
