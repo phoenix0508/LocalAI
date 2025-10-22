@@ -143,7 +143,6 @@ docker run -ti --name local-ai -p 8080:8080 --device=/dev/kfd --device=/dev/dri 
 
 - 🔍 [Object Detection](https://localai.io/features/object-detection/)
 - 🧩 [Backend Gallery](https://localai.io/backends/): Install/remove backends on the fly, powered by OCI images — fully customizable and API-driven.
-- 📖 [Text generation with GPTs](https://localai.io/features/text-generation/) (`llama.cpp`, `transformers`, `vllm` ... [:book: and more](https://localai.io/model-compatibility/index.html#model-compatibility-table))
 - 🗣 [Text to Audio](https://localai.io/features/text-to-audio/)
 - 🔈 [Audio to Text](https://localai.io/features/audio-to-text/) (Audio transcription with `whisper.cpp`)
 - 🆕🖧 [P2P Inferencing](https://localai.io/features/distribute/)
