@@ -197,7 +197,7 @@ jobs:
           password: ${{ secrets.quayPassword }}
 
       - name: Build and push
-        uses: docker/build-push-action@v6
+        uses: docker/build-push-action@v7
         if: github.event_name != 'pull_request'
         with:
           builder: ${{ steps.buildx.outputs.name }}
@@ -217,7 +217,7 @@ jobs:
           labels: ${{ steps.meta.outputs.labels }}
 
       - name: Build and push (PR)
-        uses: docker/build-push-action@v6
+        uses: docker/build-push-action@v7
         if: github.event_name == 'pull_request'
         with:
           builder: ${{ steps.buildx.outputs.name }}
